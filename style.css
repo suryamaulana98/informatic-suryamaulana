@@ -8,6 +8,35 @@
  	align-items: center;
  }
 
+ /* Tambahkan di style.css */
+ .card-content {
+ 	padding: 10px;
+ }
+
+ .info-table {
+ 	width: 100%;
+ 	border-collapse: collapse;
+ }
+
+ .info-table td {
+ 	padding: 8px;
+ 	border-bottom: 1px solid #ddd;
+ 	vertical-align: top;
+ 	/* Vertikal alignment untuk memastikan teks tidak terlalu tinggi */
+ }
+
+ .info-table .value {
+ 	text-align: left;
+	margin-right: 12px;
+ 	/* Align nilai data ke kiri */
+ }
+
+ .info-table .value .titikDua{
+	margin-right: 12px;
+	margin-left: -10px;
+ 	/* Align nilai data ke kiri */
+ }
+
  /* Footer */
  footer {
  	padding: 1rem 1rem;
@@ -87,7 +116,7 @@
  .bos {
  	display: flex;
  	flex-direction: column;
- 	align-items: center;
+	text-align: left;
  	margin-left: 16px;
  }
 

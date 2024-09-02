@@ -21,17 +21,28 @@ function renderData(data, page) {
                 <div class="data">
                     <img src="${i.fotoselfie}" alt="I${i.nama}" class="card-image" />
                     <div class="bos">
-                        <span>${i.nama}</span>
+                        <span style="font-weight: bold;">${i.nama}</span>
                         <p>${parseInt(i.nim)}</p>
                     </div>
                 </div>
+
                 <div class="card-content">
-                    <figcaption>
-                        <span>TTL : ${i.ttl}</span><br />
-                        <span>Alamat : ${i.alamat}</span><br />
-                        <span>No HP : ${i.no}</span>
-                    </figcaption>
-                </div>
+    <table class="info-table">
+        <tr>
+            <td class="label">TTL</td>
+            <td class="value"><span class="titikDua">:</span>${i.ttl}</td>
+        </tr>
+        <tr>
+            <td class="label">Alamat</td>
+            <td class="value"><span class="titikDua">:</span>${i.alamat}</td>
+        </tr>
+        <tr>
+            <td class="label">No HP</td>
+            <td class="value"><span class="titikDua">:</span>${i.no}</td>
+        </tr>
+    </table>
+</div>
+
             </div>
         `).join("")}
     `;
