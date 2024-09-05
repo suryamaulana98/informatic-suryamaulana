@@ -29,7 +29,7 @@ function renderData(data, page) {
                 <div class="card-content">
     <table class="info-table">
         <tr>
-            <td class="label">TTL</td>
+            <td class="label">TTL</td>   
             <td class="value"><span class="titikDua">:</span>${i.ttl}</td>
         </tr>
         <tr>
